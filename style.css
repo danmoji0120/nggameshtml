@@ -1,0 +1,27 @@
+#head {
+    background-color: red;
+    width: 100%;
+    height: calc(1rem + 2.5vw);
+    position: relative;
+}
+
+#head div {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#head div span {
+    font-size: calc(0.5rem + 1.2vw);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#head div h1 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: calc(0.7rem + 2vw);
+}

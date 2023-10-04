@@ -1,11 +1,45 @@
-#head {
-    background-color: rgb(241, 250, 238);
-    width: 100%;
-    height: calc(1rem + 2.5vw);
-    position: relative;
+body{
+    -ms-overflow-style: none;
+    overflow-y: auto;
+    margin: 0;
+}
+    
+::-webkit-scrollbar {
+     display: none;
 }
 
-#head div {
+#background {
+    background-color: #457B9D;
+    width: 100%;
+    margin: 0;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#background img {
+    position: static;
+    width: 90vw;
+    height: 50vw;
+    filter: brightness(50%);
+    z-index: 2;
+}
+
+#background #head {
+    background-color: rgb(241, 250, 238);
+    width: calc(0.3rem + 97vw);
+    top: calc(0.3rem + 1vw);
+    left:0;
+    right:0; 
+    margin-left:auto; 
+    margin-right:auto;
+    height: calc(1rem + 2.5vw);
+    position: fixed;
+    z-index: 10;
+}
+
+#background #head div {
     position: absolute;
     width: 100%;
     bottom: 0px;
@@ -14,13 +48,13 @@
     align-items: flex-end;
 }
 
-#head div span {
+#background #head div span {
     font-size: calc(0.5rem + 1.2vw);
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#head div h1 {
+#background #head div h1 {
     text-align: center;
     margin-bottom: 0;
     font-size: calc(0.7rem + 2vw);

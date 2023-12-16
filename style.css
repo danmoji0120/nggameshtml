@@ -1,20 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #1D3557;
+    background-color: #000000;
     margin: 10px;
     padding: 0;
 }
 
 header {
-    background-color: #457B9D;
-    color: #fff;
+    background-color: #949494;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 50px;
 }
 
 nav {
-    background-color: #A8DADC;
+    background-color: #5e5e5e;
     padding: 10px;
     position: sticky;
     margin-top: 10px;
@@ -36,7 +36,7 @@ nav li {
 li a {
     font-size: medium;
     text-decoration-line: none;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -44,12 +44,13 @@ section {
     padding: 20px;
     margin: 0 auto;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #949494;
+    color: #ffffff;
 }
 
 footer {
-    background-color: #A8DADC;
-    color: #333;
+    background-color: #5e5e5e;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     border-radius: 50px;

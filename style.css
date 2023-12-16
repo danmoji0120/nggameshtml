@@ -46,6 +46,15 @@ section {
     border-radius: 50px;
     background-color: #949494;
     color: #ffffff;
+    text-align: center;
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+section h2 {
+    text-align: center;
 }
 
 footer {
